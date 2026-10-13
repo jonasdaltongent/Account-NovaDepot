@@ -204,14 +204,18 @@ uit `_sjablonen/pre-push`.
 
 1. **google.com/devices met een leerlingaccount.** Getest met het testaccount demoleerling3 (13-10-2026): de pagina vroeg
    eerst om het wachtwoord opnieuw (een beveiligingscontrole). Er is dus **geen schermafbeelding** van de lijst: een
-   tekening staat in de plaats, en de tip in stap 4 zegt wat de leerling doet als Google het wachtwoord vraagt (verder
-   met deel 3). Opent de pagina op een schoolaccount, en wat staat erin? Misschien blokkeert de beheerder ze.
+   tekening staat in de plaats. Sinds het nalezen door de hoofdsessie (13-10-2026) zegt de tip in stap 4: vraagt Google
+   je wachtwoord opnieuw, dan is dat normaal; staat er bovenaan **accounts.google.com**, typ het dan in zoals bij het
+   aanmelden; lukt het niet, kijk naar de tekening en ga verder met deel 3. Een goed moment voor één zin in de klas: je
+   wachtwoord typ je alleen op de echte aanmeldpagina (phishing komt in les 13). Opent de pagina op een schoolaccount,
+   en wat staat erin? Misschien blokkeert de beheerder ze.
 2. **Typen leerlingen toch een echt wachtwoord** in een vak van het werkdocument, ondanks de regel op de pagina, in de
    opdracht en op dia 5? Kijk daar tijdens de eerste rondgang naar.
 3. **Wachtwoordzin**: lukt het tellen van 15 tekens? Maken ze een zin met een naam of jaartal?
 4. **Haalbaarheid**: een gemiddelde leerling is na ± 30 minuten klaar, maar niemand was snel klaar in les 07. Halen ze
    inleveren? Werken de grijze regels en infokaders zonder dat ze de antwoorden vooraan lezen?
-5. **Werkdocument in Google Documenten**: de .docx is niet in Google Documenten bekeken (geen PDF-omzetting mogelijk in
-   deze sessie). Kijk bij het uploaden of de vakken (kruisvakken in deel 2 en 4), de kaders en het puntenvak kloppen.
+5. **Werkdocument in Google Documenten**: nagekeken door de hoofdsessie (13-10-2026) als pdf uit het Google-document aan
+   het concept: kader, vier delen met puntenvak, lichtblauwe vakken, kruisvakken in deel 2 en 4, de tabel *Nalezen*.
+   Alleen de tabel van deel 2b breekt over twee bladzijden.
 6. De lespagina en dia's zijn gemeten met scripts (geen horizontaal scrollen op 683, 1024, 1280 en 1440 px; elke dia
    binnen de rand) maar niet door een mens bekeken: kijk de tekeningen na.

@@ -42,7 +42,7 @@ ANTWOORDEN_2A = [
     "Er is geen gevaar: het wachtwoord heeft een hoofdletter, cijfers en een teken.",
 ]
 
-# Deel 2b: weet, heb of ben? Rij 1 = de voorbeeldrij, al ingevuld.
+# Deel 2b: weet, hebt of bent? Rij 1 = de voorbeeldrij, al ingevuld.
 RIJEN_BEWIJS = [
     ("je pincode", "iets wat je weet"),
     ("een code op je gsm", ""),
@@ -69,7 +69,7 @@ CRITERIA = [
     ("Deel 1: ik beoordeelde de drie wachtwoorden juist, met een reden die klopt.", 3),
     ("Deel 1: mijn wachtwoordzin heeft minstens 15 tekens en minstens 4 woorden, zonder naam, bedrijf of jaartal.", 3),
     ("Deel 2: ik koos het gevaar van overal hetzelfde wachtwoord.", 1),
-    ("Deel 2: ik schreef bij de drie voorbeelden weet, heb of ben.", 2),
+    ("Deel 2: ik schreef bij de drie voorbeelden weet, hebt of bent.", 2),
     ("Deel 2: ik legde uit waarom het briefje niet volstaat als tweestapsverificatie aan staat.", 2),
     ("Deel 3: ik schreef op op welke knop Tom klikt, en welke toetsen ik druk als ik even wegga.", 4),
     ("Deel 4: ik koos wat Tom eerst doet, en de drie juiste acties daarna.", 5),

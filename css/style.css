@@ -612,8 +612,15 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 
 
 /* ===== Les 09 · Een veilig account (13-10-2026) ===== */
-/* drie beelden op de startpagina: de pijl staat op dezelfde hoogte als het beeld */
-.nodig:not(.vier) .nodig-item + .nodig-item::after { top: 4.6rem; }
+/* drie beelden op de startpagina (hoofdsessie, 13-10-2026): ook in twee kolommen, even groot als de vier beelden
+   van les 07; het derde beeld staat links op de tweede rij, zonder pijl vooraan */
+.nodig:not(.vier) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 2.4rem; }
+.nodig:not(.vier) .nodig-item + .nodig-item::after { left: -1.7rem; top: 4.6rem; }
+.nodig:not(.vier) .nodig-item:nth-child(odd)::after { content: none; }
+@media (max-width: 899px) {
+  .nodig:not(.vier) { grid-template-columns: minmax(0, 1fr); }
+  .nodig:not(.vier) .nodig-item + .nodig-item::after { content: "↓"; left: 50%; top: -1.6rem; }
+}
 
 /* infokader (uit MW les 4, 13-10-2026): wat de leerling leest of gebruikt bij een vraag; Kijk na is groen */
 .info { max-width: 640px; margin: 1.3rem 0 1rem; background: var(--peri-soft); border: 1px solid var(--peri); border-radius: var(--radius-sm); overflow: hidden; }
