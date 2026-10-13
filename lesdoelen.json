@@ -1,0 +1,33 @@
+{
+  "lesid": "novadepot-account",
+  "lesnr": "09",
+  "titel": "Werkplek 3 - Een veilig account (wachtwoordzin, tweestapsverificatie, uitloggen)",
+  "week": 8,
+  "schooljaar": "2026-2027",
+  "datum": "2026-10-20",
+  "_opmerking_datum": "Uur 1 van week 8: 4ORLOb di 20 okt (8ste uur), 3ORLO di 20 okt (9de uur), 4ORLOa wo 21 okt (4de uur).",
+  "klasgroepen": [
+    "ORLO"
+  ],
+  "_opmerking_klasgroepen": "De klasgroepcode moet 'ORLO' zijn: daarmee telt het blad 'ORLO' de regels op. De echte klasnamen staan hieronder.",
+  "klasnaam": "3ORLO, 4ORLOa, 4ORLOb",
+  "finaliteit": "arbeidsmarktgerichte finaliteit",
+  "lesduur_minuten": 50,
+  "evaluatie": "formatief",
+  "deadline": "2026-10-23T20:00",
+  "bron": "https://github.com/jonasdaltongent/Account-NovaDepot",
+  "doelen": [
+    {
+      "code": "BV2_04.04",
+      "rol": "kern"
+    },
+    {
+      "code": "BV2_04.03",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BK2_01.02.01",
+      "rol": "ondersteunend"
+    }
+  ]
+}

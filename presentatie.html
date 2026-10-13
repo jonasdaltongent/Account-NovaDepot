@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Een veilig account · dia's · NovaDepot</title>
+  <link rel="icon" href="assets/novadepot-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/slides.css">
+  <style>
+    .mono { font-family: "Courier New", monospace; font-size: 25px; font-weight: 700; }
+    .qhead { font-size: 30px; font-weight: 700; margin: 0 0 6px; }
+    .qcol .opt { font-size: 26px; padding: 8px 16px; }
+    .qcol .opt .n { width: 46px; height: 46px; font-size: 24px; }
+    .steps2 { columns: 2; column-gap: 40px; margin: 0; }
+    .steps2 li { font-size: 25px; margin-bottom: 6px; break-inside: avoid; }
+    .klok { font-size: 22px; color: #4D5573; }
+    .compact .two { flex: 0 0 auto; }
+    .compact .panel p { margin-bottom: 10px; }
+    .compact .panel p:last-child { margin-bottom: 0; }
+    .steps1 { margin: 0; padding-left: 1.2em; }
+    .steps1 li { font-size: 27px; margin-bottom: 14px; }
+    .steps1 li:last-child { margin-bottom: 0; }
+    .toets-foto { width: 100%; height: auto; border-radius: 12px; border: 2px solid #D6D5CB; display: block; }
+    .lbl { font-weight: 700; font-size: 22px !important; margin: 0 0 10px; color: var(--navy-deep); }
+    .lbl { font-weight: 700; font-size: 22px !important; margin: 0 0 10px; color: var(--navy-deep); }
+    .vraag { font-size: 28px !important; font-weight: 700; margin: 0 0 12px; }
+    .vond { list-style: none; padding: 0 !important; margin: 0 0 14px; display: grid; gap: 10px; }
+    .vond li { display: grid; grid-template-columns: 56px 1fr; gap: 16px; align-items: center; background: #fff; border: 2px solid #D6D5CB; border-radius: 14px; padding: 10px 18px; font-size: 27px !important; margin: 0 !important; }
+    .vond .nr { width: 46px; height: 46px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700; font-size: 24px; display: flex; align-items: center; justify-content: center; }
+    .cijfers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; text-align: center; }
+    .cijfers b { display: block; font-family: "Montserrat", Arial, sans-serif; font-size: 54px; line-height: 1.1; }
+    .cijfers span { display: block; font-size: 22px; line-height: 1.25; }
+    .briefje { display: inline-block; background: #FFE66D; box-shadow: 0 3px 6px rgba(0,0,0,.3); transform: rotate(-2deg); padding: 8px 18px; font-family: "Courier New", monospace; font-weight: 700; font-size: 34px; color: #1F1F1F; }
+    .pw { font-family: "Courier New", monospace; font-weight: 700; font-size: 28px; background: #fff; border: 3px solid var(--navy); border-radius: 12px; padding: 4px 14px; display: inline-block; margin: 0 0 8px; }
+    .pw.zin { font-size: 27px; }
+    .rood { color: #A0372A; font-weight: 700; }
+    .groen { color: #1F7A55; font-weight: 700; }
+    .sloten { display: grid; gap: 8px; margin: 0; padding: 0 !important; list-style: none; }
+    .sloten li { font-size: 25px !important; margin: 0 !important; background: #fff; border: 2px solid #D6D5CB; border-radius: 12px; padding: 8px 16px; }
+    .sloten b { color: var(--navy-deep); }
+    .dev { background: #fff; border: 2px solid #D6D5CB; border-radius: 12px; font-family: Arial, sans-serif; font-size: 22px; }
+    .dev .kop { padding: 8px 16px; font-weight: 700; border-bottom: 2px solid #E1E3EC; }
+    .dev .rij { display: flex; align-items: center; gap: 14px; padding: 10px 16px; border-bottom: 1px solid #EEF0F5; }
+    .dev .rij:last-child { border-bottom: 0; }
+    .dev .ic { width: 30px; height: 22px; border: 3px solid #5F6368; border-radius: 4px; flex: none; }
+    .dev .ic.tel { width: 18px; height: 28px; }
+    .dev .bal { flex: 1; display: grid; gap: 6px; }
+    .dev .bal i { display: block; height: 10px; border-radius: 5px; background: #CBD0DA; width: 55%; }
+    .dev .bal i + i { width: 30%; background: #E1E3EC; }
+    .dev .nu { font-size: 18px; color: #137333; font-weight: 700; }
+    .toets { display: inline-block; font-family: Arial, sans-serif; font-weight: 700; font-size: 34px; border: 3px solid #8B8FA3; border-bottom-width: 7px; border-radius: 12px; background: #fff; padding: 2px 22px; }
+  </style>
+</head>
+<body>
+<div class="hud"><span id="counter"></span> · <kbd>→</kbd> verder · <kbd>F</kbd> volledig scherm · <kbd>N</kbd> notities</div>
+<div class="deck"><div class="stage">
+
+<!-- 1 · vaste startdia -->
+<section class="slide start">
+  <div class="start-kop">
+    <div>
+      <p class="kicker">Toegepaste Informatica · les 09</p>
+      <h1>Een veilig account</h1>
+    </div>
+    <span class="start-zo">Zo start je</span>
+  </div>
+  <ol class="startroute">
+    <li><div class="sr-beeld"><div class="pc-scherm"><span class="pc-avatar"></span><span class="pc-veld">••••••</span></div><div class="pc-voet"></div></div><span class="sr-tekst">Meld je aan op de computer.</span></li>
+    <li><div class="sr-beeld"><span class="url-balk"><img class="logo" src="assets/logos/classroom.svg" alt="">classroom.google.com</span><span class="url-knop">Inloggen</span></div><span class="sr-tekst">Ga in Chrome naar Classroom. Klik op <span class="knop">Inloggen</span>.</span></li>
+    <li><div class="sr-beeld"><span class="login-veld">…<b>@dalton.gent</b></span><span class="login-veld">••••••••</span></div><span class="sr-tekst">Log in met je schoolaccount.</span></li>
+    <li><div class="sr-beeld"><div class="lesgroep"><span class="lesgroep-kop">… 2027 - Informatica</span></div></div><span class="sr-tekst">Klik op je klas: 3ORLO, 4ORLOa of 4ORLOb.</span></li>
+    <li><div class="sr-beeld"><div class="tabs"><span class="tab-grijs"></span><span class="tab-aan">Schoolwerk</span><span class="tab-grijs"></span></div></div><span class="sr-tekst">Klik op <span class="knop">Schoolwerk</span>.</span></li>
+    <li><div class="sr-beeld"><span class="opdr-rij"><span class="opdr-ic"></span>Werkplek 3 — Een veilig…</span><span class="opdr-link">Instructies bekijken</span></div><span class="sr-tekst">Klik op de opdracht › <span class="knop">Instructies bekijken</span>.</span></li>
+    <li><div class="sr-beeld"><span class="bijl-chip aan"><img class="logo" src="assets/logos/lespagina.webp" alt="">Les 09 · Een veilig account</span></div><span class="sr-tekst">Klik op de lespagina.</span></li>
+    <li class="klaar">Klaar? Laat de lespagina open en kijk naar het bord.</li>
+  </ol>
+  <template class="note">
+    <p><strong>Lesstart (0–2'). De vaste startdia</strong> (sinds 09-10-2026, elke les dezelfde, voor alle klassen). Laat ze op het bord staan terwijl de leerlingen aanmelden.</p>
+    <p>Het <strong>wachtwoord van de computers</strong> staat niet op de dia: de dia's staan openbaar online. Zeg het, of schrijf het op het bord. Vandaag gaat het over wachtwoorden: dat is een mooi moment om te zeggen dat het wachtwoord van de computer van de school niet op een briefje hoort.</p>
+    <p>Ga verder als de meesten de lespagina open hebben.</p>
+  </template>
+</section>
+
+<section class="slide met-mascotte" data-answer>
+  <img class="mascotte" src="assets/mascotte/dalton_denken.webp" alt="" width="240" height="240">
+  <p class="kicker">Lesstart · 3 minuten</p>
+  <h2>Weet je het nog?</h2>
+  <div class="two" style="grid-template-columns: 330px 1fr">
+    <div class="panel">
+      <p class="lbl">Les 07 · je klassement</p>
+      <p style="font-size:26px">Een nieuwe leveringsbon komt binnen op <strong>20 oktober 2026</strong>, van Bakkerij Korstjes.</p>
+    </div>
+    <div class="qcol">
+      <p class="qhead">Welke naam past in je klassement?</p>
+      <div class="opts">
+        <div class="opt"><span class="n">A</span>20-10-2026 Leveringsbon - Bakkerij Korstjes</div>
+        <div class="opt right"><span class="n">B</span>2026-10-20 Leveringsbon - Bakkerij Korstjes</div>
+        <div class="opt"><span class="n">C</span>Leveringsbon - Bakkerij Korstjes 20 oktober</div>
+      </div>
+    </div>
+  </div>
+  <p class="answer">Jaar-maand-dag vooraan: dan staat de nieuwste bon bovenaan.</p>
+  <template class="note">
+    <p><strong>Lesstart (3'), ophalen uit les 07.</strong> Iedereen antwoordt tegelijk met vingers: 1, 2 of 3 vingers voor A, B of C. Druk daarna op → voor het antwoord.</p>
+    <p>Wie A kiest: <em>"Staat de nieuwste bon dan bovenaan, met Z tot A?"</em> Wie C kiest: <em>"Waar leest Drive eerst?"</em> (Links, teken per teken.)</p>
+    <p><strong>De brug naar vandaag</strong>: <em>"Je klassement staat in je Drive. Wie kan erbij? Jij, en iedereen die in jouw account raakt. Daarover gaat het vandaag."</em></p>
+  </template>
+</section>
+
+<section class="slide met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_wijzen_links.webp" alt="" width="240" height="240">
+  <p class="kicker">Ik doe · dia 1 van 4</p>
+  <h2>Wat kan je straks?</h2>
+  <ul class="rules">
+    <li>Je maakt een <strong>wachtwoordzin</strong> van minstens 15 tekens.</li>
+    <li>Je legt uit waarom je <strong>overal een ander</strong> wachtwoord gebruikt.</li>
+    <li>Je legt uit wat <strong>tweestapsverificatie</strong> doet.</li>
+    <li>Je weet hoe je <strong>uitlogt</strong> en je computer <strong>vergrendelt</strong>, en wat je doet als je account gehackt is.</li>
+  </ul>
+  <p class="klok" style="margin-top:6px">Ik leg 5 minuten uit. Daarna werk jij zelfstandig met de lespagina, en kom ik bij jou langs.</p>
+  <template class="note">
+    <p><strong>Ik doe, 0'30".</strong> Lesdoel voorlezen, niet toelichten. Zeg er meteen bij dat de uitleg maar vijf minuten duurt en dat alles daarna op de lespagina staat. Zeg ook: <em>"Vandaag typt niemand een echt wachtwoord. Nergens."</em></p>
+  </template>
+</section>
+
+<section class="slide ">
+  <p class="kicker">Ik doe · dia 2 van 4</p>
+  <h2>De veiligheidsronde van Sara</h2>
+  <ul class="vond">
+    <li><span class="nr">1</span><span>Op de magazijn-pc kleeft een briefje met het wachtwoord: <span class="briefje" style="font-size:26px;padding:2px 12px">Nova2026!</span></span></li>
+    <li><span class="nr">2</span><span>Tom gebruikt <strong>hetzelfde</strong> wachtwoord ook voor zijn e-mail.</span></li>
+    <li><span class="nr">3</span><span>Op de tablet aan de laadkaai staat Toms account <strong>nog open</strong>.</span></li>
+  </ul>
+  <div class="panel navy reveal-item">
+    <p style="font-size:23px;margin-bottom:10px">Vlaamse jongeren (Apenstaartjaren 2026):</p>
+    <div class="cijfers"><div><b>78 %</b><span>kiest een sterk wachtwoord</span></div><div><b>24 %</b><span>gebruikt overal een ander</span></div><div><b>40 %</b><span>gebruikt tweestapsverificatie</span></div></div>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'.</strong> Lees de drie vondsten van Sara voor. Vraag: <em>"Wat is hier mis?"</em> Laat twee leerlingen antwoorden.</p>
+    <p>Druk op →: de cijfers. <em>"78 procent zegt dat ze een sterk wachtwoord kiezen. Maar maar 24 procent gebruikt overal een ander, en 40 procent tweestapsverificatie. Een sterk wachtwoord alleen is dus niet genoeg."</em> (Apenstaartjaren 2026, p. 71–72, jongeren.)</p>
+  </template>
+</section>
+
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 3 van 4 · demo</p>
+  <h2 style="margin-bottom:10px">Een wachtwoord dat sterk is</h2>
+  <div class="two" style="grid-template-columns: 1fr 1fr; align-items: start">
+    <div class="panel">
+      <p class="bad-label">Het briefje</p>
+      <p class="pw">Nova2026!</p>
+      <ul style="margin:0;padding-left:1.1em">
+        <li style="font-size:22px"><span class="rood">9 tekens</span>: te kort</li>
+        <li style="font-size:22px">bedrijfsnaam + jaartal: probeert een computer <strong>eerst</strong></li>
+      </ul>
+    </div>
+    <div class="panel reveal-item">
+      <p class="good-label">Een wachtwoordzin</p>
+      <p class="pw zin">Drie groene vorken dansen op pallet 7!</p>
+      <ul style="margin:0;padding-left:1.1em">
+        <li style="font-size:22px"><span class="groen">38 tekens</span>, 6 woorden</li>
+        <li style="font-size:22px">geen naam of jaartal, en alleen jij kent hem</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel reveal-item" style="margin-top:8px">
+    <p style="font-size:22px;margin:0 0 6px">4 cijfers: <strong>10 000</strong> mogelijkheden, ze zijn meteen allemaal geprobeerd.<br>4 woorden uit 10 000 woorden: een <strong>1 met 16 nullen</strong>.</p>
+    <p class="rood" style="font-size:22px;margin:0">Een echt wachtwoord schrijf je nooit op. Ook niet in je werkdocument.</p>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 2' — hardop denkend.</strong> Dit is rij 1 van deel 1 in het werkdocument. <em>"Ik tel de tekens: N-o-v-a is vier, 2026 is acht, het uitroepteken is negen. Te kort, minstens 15. En het is de naam van het bedrijf en een jaartal: dat probeert een computer als eerste."</em></p>
+    <p>Druk op →: de wachtwoordzin. Tel luidop de tekens van <em>Drie groene vorken dansen op pallet 7!</em> (38; spaties en teken tellen mee). <em>"Een rare zin, vier woorden of meer, een cijfer of teken. Alleen ik ken hem."</em></p>
+    <p>Druk op →: het getal. <em>"Vier cijfers is 10 000 mogelijkheden: een computer probeert ze meteen allemaal. Vier woorden uit 10 000 woorden is een 1 met 16 nullen."</em> (TC KS3 Cybersecurity, brute force.)</p>
+    <p><strong>Zeg duidelijk</strong>: dit voorbeeld is van NovaDepot, jullie gebruiken het nergens als echt wachtwoord. Een echt wachtwoord schrijf je nooit op, ook niet in het werkdocument.</p>
+  </template>
+</section>
+
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 4 van 4 · demo</p>
+  <h2>Twee sloten, en uitloggen</h2>
+  <div class="two" style="grid-template-columns: 1.05fr 1fr; align-items: start">
+    <div>
+      <ul class="sloten">
+        <li>Een tweede slot op de deur: <strong>twee verschillende</strong> bewijzen</li>
+        <li><b>weet</b>: wachtwoord, pincode</li>
+        <li><b>heb</b>: een code op je gsm</li>
+        <li><b>ben</b>: vingerafdruk, gezicht</li>
+      </ul>
+    </div>
+    <div class="dev" role="img" aria-label="Tekening van de lijst Je apparaten in een Google-account: een computer die Deze computer heet, een andere computer en een telefoon. Namen en plaatsen zijn afgedekt.">
+      <div class="kop">Je apparaten</div>
+      <div class="rij"><span class="ic"></span><span class="bal"><i></i><i></i></span><span class="nu">Deze computer</span></div>
+      <div class="rij"><span class="ic"></span><span class="bal"><i></i><i></i></span><span>&#8250;</span></div>
+      <div class="rij"><span class="ic tel"></span><span class="bal"><i></i><i></i></span><span>&#8250;</span></div>
+    </div>
+  </div>
+  <div class="panel reveal-item" style="margin-top:14px;display:flex;align-items:center;gap:20px">
+    <span class="toets">Windows</span><span style="font-size:34px;font-weight:700">+</span><span class="toets">L</span>
+    <span style="font-size:26px">Even weg? Je computer gaat op slot.</span>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'30".</strong> Eerst de sloten: <em>"Een wachtwoord is een slot. Met tweestapsverificatie komt er een tweede slot op de deur, en dat is iets anders: iets wat je hebt of bent, niet nog een wachtwoord."</em></p>
+    <p>De lijst met toestellen: <em>"In je Google-account, op google.com/devices, zie je op welke toestellen je bent ingelogd. Staat er een toestel dat niet van jou is, dan klik je erop en kies je Uitloggen."</em> Toon dit <strong>niet live met je eigen account</strong>: je toestellen en plaatsen staan erin. De dia heeft een tekening.</p>
+    <p>Druk op →: <strong>Windows + L</strong>. Doe het <strong>live</strong> op je eigen computer: het scherm gaat op slot. Meld je weer aan. Zeg: <em>"Een tabblad sluiten is geen uitloggen. En even weg? Windows + L."</em></p>
+  </template>
+</section>
+
+<section class="slide " data-answer>
+  <p class="kicker">Controle · iedereen antwoordt</p>
+  <h2>Waar of niet waar?</h2>
+  <div class="qcol">
+    <p class="qhead">"Met een sterk en lang wachtwoord is mijn account altijd veilig."</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Waar: lang is genoeg.</div>
+      <div class="opt right"><span class="n">B</span>Niet waar: je hebt ook tweestapsverificatie en overal een ander wachtwoord nodig.</div>
+      <div class="opt"><span class="n">C</span>Niet waar: een kort wachtwoord is veiliger, dat onthoud je beter.</div>
+    </div>
+  </div>
+  <p class="answer">Een lang wachtwoord is nodig, maar niet genoeg: ook tweestapsverificatie, en overal een ander wachtwoord.</p>
+  <template class="note">
+    <p><strong>Controle (1'). Iedereen antwoordt tegelijk</strong>: 1, 2 of 3 vingers voor A, B of C. Kijk rond en onthoud wie A of C toont. (De vraag is van Safeonweb zelf.)</p>
+    <p>Wie A kiest, denkt dat een sterk wachtwoord genoeg is: <em>"Wat als iemand je wachtwoord toch ziet, op een briefje of op een andere site?"</em> Wie C kiest: <em>"Wat is sneller geraden, 9 tekens of 38?"</em></p>
+    <p>Druk op → voor het antwoord. Wie A of C toonde, komt zo meteen 3 tot 5 minuten bij je.</p>
+  </template>
+</section>
+
+<section class="slide ">
+  <p class="kicker">Samen · 3 minuten</p>
+  <h2>Iedereen doet stap 1</h2>
+  <div class="panel">
+    <ol class="steps1">
+      <li>Open de lespagina. Klik op <strong>Stap 1 · Klaarzetten</strong>.</li>
+      <li>Open je werkdocument en lees het kader: wat vond Sara?</li>
+      <li>Klaar? Steek je <strong>duim</strong> op.</li>
+    </ol>
+  </div>
+  <template class="note">
+    <p><strong>Samen (3').</strong> Iedereen doet stap 1 tegelijk. Loop rond en kijk naar de schermen: het werkdocument open, met de naam van de leerling in de titel?</p>
+    <p>Duim op bij de meesten: ga naar de volgende dia. Wie op de controlevraag fout had of hier vastloopt, blijft 3 tot 5 minuten bij je. De rest begint aan stap 2.</p>
+    <p>Zeg één zin over <em>Stap voor stap</em> / <em>Kort</em>: <em>"Weet je niet hoe het moet? Laat Stap voor stap aan, dan zie je elk klein stapje met een beeld. Kan je het al? Kies Kort."</em> En: <em>"Typ nooit een echt wachtwoord, ook niet in je werkdocument."</em></p>
+  </template>
+</section>
+
+<section class="slide compact met-mascotte">
+  <img class="mascotte" src="assets/mascotte/dalton_laptop.webp" alt="" width="240" height="240">
+  <p class="kicker">Keuzewerktijd · <span class="eindtijd">40 minuten</span></p>
+  <h2>Zo werk je verder</h2>
+  <div class="two" style="grid-template-columns: 1.6fr 1fr">
+    <div>
+      <ol class="steps1 kloklijst" data-lesmomenten="2026-10-20/14.35/15.25/4ORLOb/8;2026-10-20/15.25/16.15/3ORLO/9;2026-10-21/11.15/12.05/4ORLOa/4" data-beltijden="8.25-9.15 9.15-10.05 10.25-11.15 11.15-12.05 12.05-12.55 13.45-14.35 14.35-15.25 15.25-16.15 16.15-17.05">
+        <li data-min="3" data-samen>Klaarzetten <span class="klok tijd">samen &#10003;</span></li>
+        <li data-min="10">Het briefje <span class="klok tijd">10'</span></li>
+        <li data-min="8">Overal hetzelfde <span class="klok tijd">8'</span></li>
+        <li data-min="9">De tablet aan de laadkaai <span class="klok tijd">9'</span></li>
+        <li data-min="10">Gehackt? Controleren en inleveren <span class="klok tijd">10'</span></li>
+      </ol>
+    </div>
+    <div class="panel navy">
+      <p style="font-size:25px"><strong>Vast?</strong></p>
+      <p style="font-size:26px">1. <em>Toon stapjes</em><br>2. Je buur<br>3. Ik</p>
+      <p style="margin-top:14px;font-size:22px">Vink af in de <strong>checklist</strong>.</p>
+    </div>
+  </div>
+  <p class="klok" style="margin-top:18px;font-size:25px">
+    <strong>Alles staat in de opdracht in <span class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</span></strong> <em>Werkplek 3 — Een veilig account</em>: de lespagina en je werkdocument.
+    Je levert alleen je <strong>werkdocument</strong> in.<br>Adres: jonasdaltongent.github.io/Account-NovaDepot/<!-- PAS AAN --></p>
+  <template class="note">
+    <p><strong>Keuzewerktijd.</strong> Laat deze dia staan zolang ze werken. <strong>De kloktijden</strong> komen uit de planning: buiten de les toont de dia de uren van het geplande lesmoment (met de dag en de klas erbij); tijdens dat lesmoment rekent ze vanaf nu tot de bel, min 1 minuut voor de exitvraag. Stap 1 is al samen gedaan (dia 8). Te vroeg getoond, of geef je de les op een ander uur? Druk op <strong>T</strong>.</p>
+    <p>Eerste rondgang: heeft iedereen het <strong>eigen</strong> werkdocument open (de naam in de titel)? Typt niemand een echt wachtwoord? Tweede rondgang, rond stap 4: opent google.com/devices? Vraagt Google het wachtwoord? Dan gaat de leerling verder met deel 3 zonder iets te klikken.</p>
+    <p>Denkvragen: <em>"Tel je tekens eens luidop."</em> · <em>"Wat heeft een dief nog nodig als tweestapsverificatie aan staat?"</em> · <em>"Wat is het verschil tussen een tabblad sluiten en uitloggen?"</em></p>
+    <p><strong>Vergeet niet</strong> het adres op deze dia aan te passen als de repository anders heet.</p>
+  </template>
+</section>
+
+<section class="slide met-mascotte" data-answer>
+  <img class="mascotte" src="assets/mascotte/dalton_hulp.webp" alt="" width="240" height="240">
+  <p class="kicker">Afsluiten · laatste minuut</p>
+  <h2 style="margin-bottom:10px">Eén vraag voor je vertrekt</h2>
+  <div class="qcol">
+    <p class="qhead">Iemand kent jouw wachtwoord. Wat houdt hem nog tegen?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>Een langer wachtwoord</div>
+      <div class="opt right"><span class="n">B</span>Tweestapsverificatie</div>
+      <div class="opt"><span class="n">C</span>Je tabblad sluiten</div>
+    </div>
+  </div>
+  <p class="answer">Tweestapsverificatie: hij kent je wachtwoord, maar niet je tweede bewijs.</p>
+  <p style="margin-top:6px;font-size:25px"><strong>Vertrek je? Log uit, of druk op Windows + L.</strong><br>Volgende les: <strong>de zakelijke e-mail</strong>.</p>
+  <template class="note">
+    <p><strong>Afsluiting, laatste minuut van de keuzewerktijd.</strong> Laat twee of drie leerlingen antwoorden, en druk dan op → voor het antwoord. Wie A kiest, denkt nog dat een sterk wachtwoord genoeg is: onthoud wie dat is, en begin er volgende keer mee.</p>
+    <p>Zeg mondeling dat wie niet klaar is, toch inlevert.</p>
+    <p><strong>Vertrekken:</strong> iedereen logt uit, of drukt op Windows + L. Dat mag elke les het einde zijn.</p>
+    <p>Na de les: kijk in de werkdocumenten of iemand een echt wachtwoord typte (meteen laten wissen en veranderen), en of iedereen tweestapsverificatie kan uitleggen.</p>
+  </template>
+</section>
+
+</div></div>
+<div class="notes" id="notes"></div>
+<script src="js/slides.js"></script>
+</body>
+</html>

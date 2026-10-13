@@ -1,0 +1,27 @@
+{
+  "_uitleg": "Wordt gelezen door _tools/zet_opdracht_klaar.py (zie _tools/CLASSROOM-KOPPELING.md). Dit bestand staat openbaar op GitHub: zet hier nooit een e-mailadres of wachtwoord in. {deadline} vult het script zelf in; de deadline komt uit lesdoelen.json.",
+  "titel": "Werkplek 3 — Een veilig account",
+  "onderwerp": "Digitale competenties",
+  "klassen": [
+    "3ORLO",
+    "4ORLOa",
+    "4ORLOb"
+  ],
+  "punten": 20,
+  "instructie": [
+    "1. Open de lespagina (link) en je werkdocument WP3_Een-veilig-account.",
+    "2. Typ nooit een echt wachtwoord, ook niet in je werkdocument.",
+    "3. Klik op Inleveren, ten laatste {deadline}."
+  ],
+  "bijlagen": [
+    {
+      "soort": "link",
+      "url": "https://jonasdaltongent.github.io/Account-NovaDepot/"
+    },
+    {
+      "soort": "kopie",
+      "bestand": "werkdocument/WP3_Een-veilig-account.docx",
+      "naam": "WP3_Een-veilig-account"
+    }
+  ]
+}

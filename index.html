@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lespagina · Les 09 · Een veilig account · NovaDepot</title>
+  <link rel="icon" href="assets/logos/lespagina-icon.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-storage="novadepot_account_v1_" data-modus-start="stap" data-laatste-stap="5" data-ai-hulp="uit">
+
+<!-- Pictogrammen: eenvoudige lijntekeningen, eigen werk. Gebruik: een svg met class "ic" en daarin use met href naar het symbool. -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4 2.5 4H5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 10"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01" stroke-width="3"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3.5l9.5 17h-19z"/><path d="M12 10v4.5M12 17.5h.01"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.3a2.5 2.5 0 1 1 3.4 2.5c-.6.3-1 .8-1 1.5v.4M12 17h.01"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5H9l2 2h8.5A1.5 1.5 0 0 1 21 8.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 15V3M7 8l5-5 5 5"/><path d="M4 14v6h16v-6"/></symbol>
+  <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L12 16.9l-5.2 2.8 1-5.9-4.3-4.1 5.9-.8z"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M11 3l1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9z"/><path d="M18.5 14.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 12V6a1.5 1.5 0 0 1 3 0v5"/><path d="M11 10.5V4.5a1.5 1.5 0 0 1 3 0v6"/><path d="M14 10.5V6a1.5 1.5 0 0 1 3 0v7.5"/><path d="M8 11.5l-1.5-1.5a1.6 1.6 0 0 0-2.3 2.3l3.6 4.2A6.5 6.5 0 0 0 17 13.5"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14.2a5 5 0 0 1 5 5"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M8 3v4M16 3v4M3.5 10h17"/></symbol>
+  <symbol id="i-hash" viewBox="0 0 24 24"><path d="M9.5 4L7.5 20M16.5 4l-2 16M4 9h16M3.5 15h16"/></symbol>
+  <symbol id="i-sort" viewBox="0 0 24 24"><path d="M4 7h9M4 12h6M4 17h3"/><path d="M17 5v14M14 16l3 3 3-3"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6h.01"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+</svg>
+
+<div class="teacher-banner">Leraarweergave: de roze kaders tonen waar je een screenshot kan plaatsen. Leerlingen zien die kaders niet.</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html" title="Naar het begin van de les">
+      <img src="assets/novadepot-logo.svg" alt="NovaDepot">
+      <span class="brand-lesson">Les 09 · Een veilig account</span>
+    </a>
+    <span class="topbar-spacer"></span>
+    <img class="dalton-mark" src="assets/dalton-gent-logo.png" alt="GO! Dalton Gent">
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- ============ LINKS: de route ============ -->
+  <nav class="route" aria-label="Stappenplan">
+    <p class="route-title">Stappenplan</p>
+    <button class="nav-btn" type="button" data-step="start"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-flag"/></svg></span><span class="nav-lbl">Start</span></button>
+    <button class="nav-btn" type="button" data-step="theorie"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg></span><span class="nav-lbl">Theoriekaart</span></button>
+
+    <p class="route-group">De veiligheidsronde</p>
+    <button class="nav-btn" type="button" data-step="1"><span class="nav-num"><span class="nav-n">1</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Klaarzetten</span></button>
+    <button class="nav-btn" type="button" data-step="2"><span class="nav-num"><span class="nav-n">2</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Het briefje</span></button>
+    <button class="nav-btn" type="button" data-step="3"><span class="nav-num"><span class="nav-n">3</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Overal hetzelfde</span></button>
+    <button class="nav-btn" type="button" data-step="4"><span class="nav-num"><span class="nav-n">4</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">De tablet aan de laadkaai</span></button>
+
+    <p class="route-group">Als het toch misloopt</p>
+    <button class="nav-btn" type="button" data-step="5"><span class="nav-num"><span class="nav-n">5</span><svg class="ic nav-check" aria-hidden="true"><use href="#i-check"/></svg></span><span class="nav-lbl">Gehackt? Controleren en inleveren</span></button>
+    <button class="nav-btn extra" type="button" data-step="extra"><span class="nav-num"><svg class="ic" aria-hidden="true"><use href="#i-star"/></svg></span><span class="nav-lbl">Extra</span></button>
+  </nav>
+
+  <!-- ============ MIDDEN: één stap tegelijk ============ -->
+  <main id="main">
+
+    <!-- ===== START ===== -->
+    <section class="pane" id="pane-start" aria-labelledby="h-start">
+      <article class="card">
+        <header class="card-head met-mascotte">
+          <div>
+            <div class="tags"><span class="tag tag-where">Toegepaste Informatica · les 09</span></div>
+            <h1 id="h-start">Een veilig account</h1>
+          </div>
+          <img class="mascotte-kop" src="assets/mascotte/dalton_welkom.webp" alt="" width="120" height="120">
+        </header>
+        <div class="card-body">
+          <p class="intro">Sara van de preventiedienst van NovaDepot deed een veiligheidsronde in het magazijn. Ze vond een wachtwoord op een briefje en een account dat openstond. Jij helpt haar: een beter wachtwoord, een tweede slot en uitloggen.</p>
+
+          <h2 class="sec">Wat heb je nodig?</h2>
+          <ol class="nodig">
+            <li class="nodig-item">
+              <div class="mock mock-opdracht" aria-hidden="true">
+                <div class="mo-midden">
+                  <div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Werkplek 3 — Een veilig account</div>
+                  <div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Les 09 · Een veilig account</span></div>
+                </div>
+                <div class="mo-werk">
+                  <div class="mo-werk-kop">Jouw werk</div>
+                  <div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>WP3_Een-veilig-account</span></div>
+                  <div class="mo-knop">Inleveren</div>
+                </div>
+              </div>
+              <p class="nodig-naam"><img class="logo" src="assets/logos/classroom.svg" alt="">De opdracht in Google Classroom</p>
+              <p class="nodig-uitleg">Hier begin je. Hier lever je in.</p>
+            </li>
+            <li class="nodig-item">
+              <div class="mock mock-lespagina" aria-hidden="true">
+                <div class="ml-balk"></div>
+                <div class="ml-midden">
+                  <div class="ml-route"><span></span><span></span><span></span><span></span></div>
+                  <div class="ml-stap"><span class="ml-tag">Stap 1</span><span class="ml-lijn"></span><span class="ml-lijn kort"></span><span class="ml-lijn"></span></div>
+                </div>
+                <div class="ml-hier">Je bent hier</div>
+              </div>
+              <p class="nodig-naam"><img class="logo" src="assets/logos/lespagina.webp" alt="">Deze lespagina</p>
+              <p class="nodig-uitleg">Hier lees je wat je moet doen, stap voor stap.</p>
+            </li>
+            <li class="nodig-item inleveren">
+              <div class="mock mock-werkdocument" aria-hidden="true">
+                <div class="mw-balk"><img class="logo" src="assets/logos/docs.svg" alt="">WP3_Een-veilig-account</div>
+                <div class="mw-blad"><div class="mw-tekst"><span></span><span></span><span class="kort"></span><span></span><span class="kort"></span></div></div>
+              </div>
+              <p class="nodig-naam"><img class="logo" src="assets/logos/docs.svg" alt="">Je werkdocument WP3</p>
+              <p class="nodig-uitleg">Hier schrijf je. Dit lever je in.</p>
+            </li>
+          </ol>
+
+          <h2 class="sec">Na deze les kan je</h2>
+          <ul class="doelen">
+            <li>een veilige wachtwoordzin maken en zeggen waarom een wachtwoord zwak is;</li>
+            <li>uitleggen waarom je overal een ander wachtwoord gebruikt en wat tweestapsverificatie doet;</li>
+            <li>nakijken waar je bent ingelogd, je computer vergrendelen en weten wat je doet als je account gehackt is.</li>
+          </ul>
+
+          <h2 class="sec">Vast? Probeer het in deze volgorde</h2>
+          <ol class="vast">
+            <li><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg><span>Klik in de stap op <em>Toon stapjes</em></span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><span>Je buur</span></li>
+            <li class="ai-hulp"><svg class="ic" aria-hidden="true"><use href="#i-spark"/></svg><span>AI-hulp in de opdracht</span></li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg><span>Je leraar</span></li>
+          </ol>
+
+          <p class="start-cta"><button class="btn btn-primary" type="button" data-goto="1">Start met stap 1 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== THEORIEKAART ===== -->
+    <section class="pane" id="pane-theorie" aria-labelledby="h-theorie">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-where">Spiekbriefje</span></div>
+          <h2 id="h-theorie">Theoriekaart</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Alles op één plek. Kom hier terug als je iets niet meer weet.</p>
+
+          <div class="t-grid">
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-layers"/></svg>Zo werkt elke les</h3>
+              <ul>
+                <li>Je start in Classroom, bij de opdracht van vandaag.</li>
+                <li>In de opdracht staan de lespagina en je werkdocument.</li>
+                <li>Klaar? Klik in de opdracht op <span class="ui">Inleveren</span>.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-lock"/></svg>Een sterk wachtwoord</h3>
+              <ul>
+                <li>Minstens <strong>15 tekens</strong>. Lang is sterker dan ingewikkeld.</li>
+                <li>Geen naam, bedrijf, geboortejaar of jaartal: dat probeert een computer eerst.</li>
+                <li>Een pincode van 4 cijfers heeft 10 000 mogelijkheden. Een computer probeert ze meteen allemaal.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Een wachtwoordzin maken</h3>
+              <p>Een rare zin die alleen jij kent, van minstens <strong>4 woorden</strong>, met een cijfer of teken.</p>
+              <ul>
+                <li><code>Drie groene vorken dansen op pallet 7!</code></li>
+                <li>4 woorden uit 10 000 woorden zijn er een 1 met 16 nullen.</li>
+                <li>Gebruik nooit een voorbeeld uit een les als echt wachtwoord.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg>Overal een ander wachtwoord</h3>
+              <ul>
+                <li>Raakt iemand in één account, dan probeert die hetzelfde wachtwoord op je andere accounts.</li>
+                <li>Een <strong>wachtwoordkluis</strong> onthoudt al je wachtwoorden. Jij onthoudt er nog één.</li>
+                <li>Geef je wachtwoord aan niemand.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-check-circle"/></svg>Twee sloten: tweestapsverificatie</h3>
+              <p>Je bewijst op twee verschillende manieren wie je bent.</p>
+              <ul>
+                <li>iets wat je <strong>weet</strong>: wachtwoord, pincode</li>
+                <li>iets wat je <strong>hebt</strong>: een code op je gsm</li>
+                <li>iets wat je <strong>bent</strong>: vingerafdruk, gezicht</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-monitor"/></svg>Een gedeelde computer</h3>
+              <ul>
+                <li><strong>Log uit</strong> als je klaar bent op een computer die ook van anderen is.</li>
+                <li>Even weg? <span class="key">Windows</span> + <span class="key">L</span> zet je computer op slot.</li>
+                <li>Een tabblad sluiten is geen uitloggen: je blijft aangemeld.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-hand"/></svg>Waar ben ik ingelogd?</h3>
+              <ul>
+                <li>Ga naar <strong>google.com/devices</strong>: onder <span class="ui">Je apparaten</span> zie je je toestellen.</li>
+                <li>Een toestel dat niet van jou is? Klik erop › <span class="ui">Uitloggen</span>.</li>
+              </ul>
+            </section>
+            <section class="t-card">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>Gehackt?</h3>
+              <ul>
+                <li>Verander <strong>meteen</strong> je wachtwoord. Ook dat van je andere accounts.</li>
+                <li>Zet tweestapsverificatie aan.</li>
+                <li>Werkaccount? Verwittig meteen je werkgever.</li>
+              </ul>
+            </section>
+            <section class="t-card wide">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg>Woorden</h3>
+              <table class="t-rows">
+                <tr><th>wachtwoordzin</th><td>een lang wachtwoord dat een zin is. Safeonweb zegt <em>wachtzin</em>.</td></tr>
+                <tr><th>tweestapsverificatie</th><td>op twee manieren bewijzen wie je bent</td></tr>
+                <tr><th>wachtwoordkluis</th><td>een programma dat al je wachtwoorden bewaart</td></tr>
+                <tr><th>uitloggen</th><td>je account op een toestel afsluiten</td></tr>
+                <tr><th>vergrendelen</th><td>je computer op slot zetten tot je weer aanmeldt</td></tr>
+                <tr><th>gehackt</th><td>iemand anders raakte in je account</td></tr>
+              </table>
+            </section>
+
+            <section class="t-card wide warn">
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>Veelgemaakte fouten</h3>
+              <ul>
+                <li>Een voorbeeld uit een les gebruiken als echt wachtwoord.</li>
+                <li>Twee wachtwoorden na elkaar aanzien voor tweestapsverificatie: dat is twee keer iets wat je weet.</li>
+                <li>Een tabblad sluiten en denken dat je uitgelogd bent.</li>
+                <li>Je wachtwoord delen met een vriend. Bijna 2 op de 3 Vlaamse jongeren deden dat het voorbije jaar.</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== STAP 1 ===== -->
+    <section class="pane" id="pane-1" aria-labelledby="h-1">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 1</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument</span></div>
+          <h2 id="h-1">Klaarzetten</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Je opent je werkdocument en leest wat Sara vond.</p>
+          <div class="todo-box">
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Open je werkdocument <strong>WP3_Een-veilig-account</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Kijk in je opdracht in <strong class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</strong> rechts, bij <strong>Jouw werk</strong>.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht in Google Classroom. Rechts het vak Jouw werk, in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Werkplek 3 — Een veilig account</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina · Les 09</span></div></div><div class="mo-werk wijs"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>WP3_Een-veilig-account</span></div><div class="mo-knop">Inleveren</div></div></div></li>
+                  <li><p>Klik op <strong>WP3_Een-veilig-account</strong>. Jouw naam staat in de titel.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht. Bij Jouw werk staat het werkdocument WP3 in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Werkplek 3 — Een veilig account</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina · Les 09</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip wijs"><img class="logo" src="assets/logos/docs.svg" alt=""><span>WP3_Een-veilig-account</span></div><div class="mo-knop">Inleveren</div></div></div></li>
+                </ol>
+              </details></li>
+              <li><span class="doe-tekst">Lees het kader bovenaan je werkdocument: wat vond Sara?</span><span class="sub">Het zijn drie dingen. Je gebruikt ze in de volgende stappen.</span></li>
+            </ol>
+          </div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Staat jouw naam niet in de titel?</strong> Dan opende je niet je eigen kopie. Klik in je opdracht rechts, bij <em>Jouw werk</em>.</p></div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="start"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Start</button>
+          <button class="btn btn-primary" type="button" data-goto="2">Stap 2 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 2 ===== -->
+    <section class="pane" id="pane-2" aria-labelledby="h-2">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 2</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 1</span></div>
+          <h2 id="h-2">Het briefje</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Sara vond een wachtwoord op een briefje. Jij beoordeelt wachtwoorden en maakt er zelf een dat wel veilig is.</p>
+          <div class="todo-box">
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><span class="doe-tekst">Lees het infokader hieronder.</span><span class="sub">Je leest eerst. Daarna beoordeel je wachtwoorden.</span></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Vul de tabel van <strong>deel 1</strong> in.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Kijk naar het briefje op de magazijn-pc. Rij 1 van de tabel is al ingevuld: dat deden we samen.</p><div class="teken-scherm" role="img" aria-label="Tekening van het scherm van de magazijn-pc. Op het scherm kleeft een geel briefje met het wachtwoord Nova2026!"><div class="ts-beeld"><div class="ts-venster"><span></span><span class="kort"></span><span></span></div><div class="ts-briefje wijs">Nova2026!</div></div><div class="ts-voet"></div><div class="ts-voet2"></div></div></li>
+                  <li><p>Typ bij rij 2, 3 en 4 in het lichtblauwe vak: <strong>ja</strong> of <strong>nee</strong>.</p><table class="teken-wd" role="img" aria-label="Tekening van de tabel in deel 1. Rij 1, Nova2026! met nee en een reden, is al ingevuld. In de andere rijen staan lichtblauwe vakken."><tr><th>Wachtwoord</th><th>Veilig?</th><th>Waarom?</th></tr><tr><td>Nova2026!</td><td class="grijs">nee</td><td class="grijs">Te kort: 9 tekens …</td></tr><tr><td>tompeeters</td><td class="vak wijs"></td><td class="vak breed wijs"></td></tr></table></li>
+                  <li><p>Typ bij <strong>Waarom?</strong> één reden.</p><table class="teken-wd" role="img" aria-label="Tekening van de tabel in deel 1. Rij 1 is al ingevuld. In de andere rijen staat bij Waarom een lichtblauw vak."><tr><th>Wachtwoord</th><th>Veilig?</th><th>Waarom?</th></tr><tr><td>Nova2026!</td><td class="grijs">nee</td><td class="grijs">Te kort: 9 tekens …</td></tr><tr><td>tompeeters</td><td class="vak wijs"></td><td class="vak breed wijs"></td></tr></table></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Maak je eigen <strong>wachtwoordzin</strong> voor de magazijn-pc.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Bedenk een rare zin van minstens 4 woorden, met een cijfer of teken.</p></li>
+                  <li><p>Typ de zin in het lichtblauwe vak onder de tabel.</p><table class="teken-wd" role="img" aria-label="Tekening van het lichtblauwe vak onder de tabel, in een rood kader."><tr><td class="vak breed wijs" style="min-width:260px;height:34px"></td></tr></table></li>
+                  <li><p>Tel de tekens. Spaties en tekens tellen mee. Minstens 15?</p><div class="teken-ui" role="img" aria-label="Tekening: de zin Drie groene vorken dansen op pallet 7! met daarnaast het aantal tekens, 38."><span class="t-veld"><code>Drie groene vorken dansen op pallet 7!</code></span><span class="t-grijs">38 tekens</span></div></li>
+                </ol>
+              </details><span class="sub">Gebruik nooit een voorbeeld uit een les als echt wachtwoord: dat kent de hele klas. Typ nooit een echt wachtwoord, ook niet in je werkdocument.</span></li>
+            </ol>
+          </div>
+          <div class="info" role="group" aria-labelledby="info-sterk">
+            <div class="info-kop"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span class="info-soort">Info</span><h3 id="info-sterk">Een sterk wachtwoord</h3><span class="info-bij">bij deel 1</span></div>
+            <div class="info-body">
+              <ul>
+                <li>Een sterk wachtwoord is <strong>lang</strong>: minstens 15 tekens.</li>
+                <li>Lang is sterker dan ingewikkeld: elk teken erbij geeft veel meer mogelijkheden. Een pincode van 4 cijfers heeft 10 000 mogelijkheden, en een computer probeert ze meteen allemaal. 4 woorden uit 10 000 woorden zijn er een 1 met 16 nullen.</li>
+                <li>Een computer probeert eerst een naam, de naam van een bedrijf, een geboortejaar of een jaartal.</li>
+                <li>Moeilijk te onthouden? Maak een <strong>wachtwoordzin</strong>: een rare zin van minstens 4 woorden, met een cijfer of teken. Alleen jij kent hem.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Telt je wachtwoordzin minder dan 15 tekens?</strong> Voeg een woord toe. Spaties en tekens tellen mee.</p></div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="1"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 1</button>
+          <button class="btn btn-primary" type="button" data-goto="3">Stap 3 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 3 ===== -->
+    <section class="pane" id="pane-3" aria-labelledby="h-3">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 3</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 2</span></div>
+          <h2 id="h-3">Overal hetzelfde</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Tom gebruikt het wachtwoord van het briefje ook voor zijn e-mail. Wat is daar mis mee, en wat helpt?</p>
+          <div class="todo-box">
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><span class="doe-tekst">Lees de twee infokaders hieronder.</span><span class="sub">Ze staan in de volgorde van de vragen.</span></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Doe <strong>deel 2a</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Lees de vraag over Tom en zijn e-mail.</p></li>
+                  <li><p>Typ een <strong>x</strong> in het lichtblauwe vak naast één antwoord.</p><table class="teken-wd" role="img" aria-label="Tekening van een tabel met antwoorden. Links een lichtblauw vak in een rood kader, rechts het antwoord."><tr><th>Een x bij</th><th>Antwoord</th></tr><tr><td class="vak wijs"></td><td>een antwoord</td></tr><tr><td class="vak"></td><td>een ander antwoord</td></tr></table></li>
+                </ol>
+              </details></li>
+              <li><span class="doe-tekst">Doe <strong>deel 2b</strong>: weet, heb of ben?</span><span class="sub">Rij 1 is al ingevuld. Typ in de andere rijen: iets wat je weet, hebt of bent.</span></li>
+              <li><span class="doe-tekst">Doe <strong>deel 2c</strong>: typ je uitleg in het vak.</span><span class="sub">Eén of twee zinnen is genoeg.</span></li>
+            </ol>
+          </div>
+          <div class="info" role="group" aria-labelledby="info-ander">
+            <div class="info-kop"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span class="info-soort">Info</span><h3 id="info-ander">Overal een ander wachtwoord</h3><span class="info-bij">bij deel 2a</span></div>
+            <div class="info-body">
+              <ul>
+                <li>Raakt iemand in één account, dan probeert die hetzelfde wachtwoord op je andere accounts.</li>
+                <li>Een <strong>wachtwoordkluis</strong> onthoudt al je wachtwoorden voor jou. Jij onthoudt er nog één.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="info" role="group" aria-labelledby="info-sloten">
+            <div class="info-kop"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span class="info-soort">Info</span><h3 id="info-sloten">Twee sloten op de deur: tweestapsverificatie</h3><span class="info-bij">bij deel 2b en 2c</span></div>
+            <div class="info-body">
+              <ul>
+                <li>Je bewijst op <strong>twee manieren</strong> wie je bent.</li>
+                <li>Er zijn drie soorten bewijs:</li>
+              </ul>
+              <table class="info-tabel">
+                <tr><th>iets wat je <strong>weet</strong></th><td>een wachtwoord, een pincode</td></tr>
+                <tr><th>iets wat je <strong>hebt</strong></th><td>een code op je gsm</td></tr>
+                <tr><th>iets wat je <strong>bent</strong></th><td>je vingerafdruk, je gezicht</td></tr>
+              </table>
+              <ul style="margin-top:.6rem"><li>Ook itsme is tweestapsverificatie.</li></ul>
+            </div>
+          </div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Twee wachtwoorden na elkaar?</strong> Dat is geen tweestapsverificatie: het is twee keer iets wat je <em>weet</em>.</p></div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="2"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 2</button>
+          <button class="btn btn-primary" type="button" data-goto="4">Stap 4 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 4 ===== -->
+    <section class="pane" id="pane-4" aria-labelledby="h-4">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-step">Stap 4</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-lock"/></svg> Google-account</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 3</span></div>
+          <h2 id="h-4">De tablet aan de laadkaai</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Het account van Tom stond nog open op de tablet. Jij kijkt in je eigen Google-account waar jij bent ingelogd.</p>
+          <div class="todo-box">
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Bekijk waar <strong>jij</strong> bent ingelogd.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik op deze knop:<a class="btn btn-primary btn-dl" href="https://google.com/devices" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg> Waar ben ik ingelogd?</a><span class="sub">Er opent een nieuw tabblad met je Google-account.</span></p></li>
+                  <li><p>Kijk naar <strong>Je apparaten</strong>: de computers en toestellen waarop je bent of onlangs was ingelogd. De computer van vandaag staat erbij.</p><div class="teken-dev wijs" role="img" aria-label="Tekening van de lijst Je apparaten op google.com/devices: een computer die Deze computer heet, een andere computer en een telefoon. De namen en plaatsen zijn afgedekt. De lijst staat in een rood kader."><div class="td-kop">Je apparaten</div><div class="td-rij"><span class="td-ic"></span><span class="td-tekst"><i></i><i class="kort"></i></span><span class="td-nu">Deze computer</span></div><div class="td-rij"><span class="td-ic"></span><span class="td-tekst"><i></i><i class="kort"></i></span><span class="td-pijl">&#8250;</span></div><div class="td-rij"><span class="td-ic tel"></span><span class="td-tekst"><i></i><i class="kort"></i></span><span class="td-pijl">&#8250;</span></div></div></li>
+                  <li><p>Klik op niets: je kijkt alleen.<span class="sub">Een toestel dat niet van jou is? Daar klik je op › <span class="ui">Uitloggen</span>. Vandaag verander je niets.</span></p></li>
+                </ol>
+              </details></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Leer hoe je een computer <strong>vergrendelt</strong>.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Ga je even weg van een computer die ook van anderen is? Druk op <span class="key">Windows</span> + <span class="key">L</span>.<span class="sub">Je computer gaat op slot tot je weer aanmeldt. Doe het nu niet: je leraar toonde het al.</span></p><div class="teken-ui" role="img" aria-label="Tekening: de toetsen Windows en L."><span class="key wijs">Windows</span> + <span class="key wijs">L</span><span class="t-grijs">de computer gaat op slot</span></div></li>
+                </ol>
+              </details></li>
+              <li><span class="doe-tekst">Doe <strong>deel 3a en 3b</strong>.</span><span class="sub">Typ je antwoord in de lichtblauwe vakken.</span></li>
+            </ol>
+          </div>
+          <div class="tip"><svg class="ic" aria-hidden="true"><use href="#i-bulb"/></svg><p><strong>Vraagt Google je wachtwoord, of opent de pagina niet?</strong> Kijk dan naar het beeld bij stapje b en ga verder met deel 3.</p></div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="3"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 3</button>
+          <button class="btn btn-primary" type="button" data-goto="5">Stap 5 <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== STAP 5 ===== -->
+    <section class="pane" id="pane-5" aria-labelledby="h-5">
+      <article class="card">
+        <header class="card-head met-mascotte">
+          <div>
+            <div class="tags"><span class="tag tag-step">Stap 5</span><span class="tag tag-where"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg> Opdracht</span><span class="tag tag-where"><img class="logo" src="assets/logos/docs.svg" alt=""> Werkdocument, deel 4</span></div>
+            <h2 id="h-5">Gehackt? Controleren en inleveren</h2>
+          </div>
+          <img class="mascotte-kop" src="assets/mascotte/dalton_inleveren.webp" alt="" width="120" height="120">
+        </header>
+        <div class="card-body">
+          <p class="intro">Tom krijgt een mail over een aanmelding op een onbekend toestel. Wat doet hij? Daarna test je jezelf en lever je in.</p>
+          <div class="todo-box">
+            <div class="todo-head"><h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat moet je doen?</h3><div class="modus" role="group" aria-label="Hoe wil je de uitleg?"><button type="button" class="modus-btn" data-modus="stap" aria-pressed="true">Stap voor stap</button><button type="button" class="modus-btn" data-modus="kort" aria-pressed="false">Kort</button></div></div>
+            <ol class="doe">
+              <li><span class="doe-tekst">Lees het infokader hieronder.</span><span class="sub">Tom kreeg een mail over een aanmelding op een onbekend toestel.</span></li>
+              <li><span class="doe-tekst">Vul <strong>deel 4</strong> in.</span><span class="sub">Deel 4a: een x bij één antwoord. Deel 4b: een x bij de drie juiste.</span></li>
+              <li><span class="doe-tekst">Doe de <strong>zelftest</strong> hieronder.</span><span class="sub">Er wordt niets bewaard.</span></li>
+              <li><span class="doe-tekst">Loop de <strong>controletabel</strong> onderaan je werkdocument na.</span><span class="sub">Typ een x bij wat klopt. Staat er iets open? Werk het eerst af.</span></li>
+              <li><details class="stapjes" open><summary><span class="doe-tekst">Lever in.</span><span class="stapjes-knop" aria-hidden="true"></span></summary>
+                <ol class="klein">
+                  <li><p>Klik in je opdracht in <strong class="met-logo"><img class="logo" src="assets/logos/classroom.svg" alt="">Google Classroom</strong> rechts op <span class="ui">Inleveren</span>.</p><div class="mock mock-opdracht mini-mock" role="img" aria-label="Tekening van de opdracht. Bij Jouw werk staat de knop Inleveren in een rood kader."><div class="mo-midden"><div class="mo-titel"><img class="logo" src="assets/logos/classroom.svg" alt="">Werkplek 3 — Een veilig account</div><div class="mo-chip"><img class="logo" src="assets/logos/lespagina.webp" alt=""><span>Lespagina · Les 09</span></div></div><div class="mo-werk"><div class="mo-werk-kop">Jouw werk</div><div class="mo-chip"><img class="logo" src="assets/logos/docs.svg" alt=""><span>WP3_Een-veilig-account</span></div><div class="mo-knop wijs">Inleveren</div></div></div></li>
+                </ol>
+              </details></li>
+            </ol>
+          </div>
+          <div class="info" role="group" aria-labelledby="info-gehackt">
+            <div class="info-kop"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg><span class="info-soort">Info</span><h3 id="info-gehackt">Is je account gehackt?</h3><span class="info-bij">bij deel 4</span></div>
+            <div class="info-body">
+              <ul>
+                <li>Signalen: een mail over een aanmelding op een nieuw toestel, of berichten die jij niet stuurde.</li>
+                <li>Kan je nog aanmelden? Verander <strong>meteen</strong> je wachtwoord, ook dat van je andere accounts, en zet tweestapsverificatie aan.</li>
+                <li>Zijn werkgegevens gestolen? Verwittig meteen je werkgever.</li>
+                <li>Zie je een toestel dat niet van jou is? Log daar uit.</li>
+              </ul>
+            </div>
+          </div>
+          <h3 class="quiz-kop">Zelftest: drie vragen</h3>
+          <div class="quiz">
+            <div class="quiz-q" data-ok="Juist: hij kent je wachtwoord, maar niet je tweede bewijs, zoals een code op je gsm of je vingerafdruk." data-nok="Nog niet. Hij kent je wachtwoord al: wat heeft hij dan nog nodig?">
+              <p>1. Iemand kent jouw wachtwoord. Wat houdt hem nog tegen?</p>
+              <div class="opts">
+                <button type="button">Een langer wachtwoord</button>
+                <button type="button" data-right>Tweestapsverificatie</button>
+                <button type="button">Je tabblad sluiten</button>
+              </div>
+              <p class="feedback" role="status"></p>
+            </div>
+            <div class="quiz-q" data-ok="Juist: lang, een rare zin en geen naam of jaartal." data-nok="Nog niet. Kijk naar de lengte, en of er een naam of een jaartal in staat.">
+              <p>2. Welke wachtwoordzin is het sterkst?</p>
+              <div class="opts">
+                <button type="button">Tom1234!</button>
+                <button type="button">NovaDepot2026</button>
+                <button type="button" data-right>Mijn kat eet 3 groene pallets!</button>
+              </div>
+              <p class="feedback" role="status"></p>
+            </div>
+            <div class="quiz-q" data-ok="Juist. Windows + L zet je computer op slot tot je weer aanmeldt." data-nok="Nog niet. Met je scherm uit of zonder iets te doen blijft je account open voor wie voorbijloopt.">
+              <p>3. Je gaat even naar het toilet. Wat doe je met je computer in de klas?</p>
+              <div class="opts">
+                <button type="button" data-right>Windows + L</button>
+                <button type="button">Niets, ik ben zo terug</button>
+                <button type="button">Het scherm uitzetten</button>
+              </div>
+              <p class="feedback" role="status"></p>
+            </div>
+          </div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="4"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 4</button>
+          <button class="btn btn-primary" type="button" data-goto="extra">Extra <svg class="ic" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </footer>
+      </article>
+    </section>
+
+    <!-- ===== EXTRA ===== -->
+    <section class="pane" id="pane-extra" aria-labelledby="h-extra">
+      <article class="card">
+        <header class="card-head">
+          <div class="tags"><span class="tag tag-extra">Extra · niet verplicht</span></div>
+          <h2 id="h-extra">Voor wie klaar is</h2>
+        </header>
+        <div class="card-body">
+          <p class="intro">Begin hier pas nadat je hebt ingeleverd. Dit schrijf je nergens op: het blijft bij jou.</p>
+          <div class="todo-box">
+            <h3><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg> Wat kan je doen?</h3>
+            <ol class="todo">
+              <li><strong>De wachtwoordtest van Safeonweb.</strong> Het zijn vragen over je eigen gewoontes. Je typt er geen wachtwoord, en je antwoorden blijven bij jou.<a class="btn btn-primary btn-dl" href="https://safeonweb.be/nl/wachtwoordtest" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-link"/></svg> Wachtwoordtest</a></li>
+              <li><strong>Een tip voor thuis.</strong> Zet tweestapsverificatie aan op je eigen e-mail. Safeonweb zegt: begin met je e-mail. Doe dat thuis, niet op je schoolaccount.</li>
+            </ol>
+          </div>
+        </div>
+        <footer class="card-nav">
+          <button class="btn" type="button" data-goto="5"><svg class="ic" aria-hidden="true"><use href="#i-left"/></svg> Stap 5</button>
+          <button class="btn" type="button" data-goto="start">Naar het begin</button>
+        </footer>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- ============ RECHTS: de checklist ============ -->
+  <aside class="checklist leeg" id="checklist" aria-labelledby="h-cl">
+    <div class="cl-head">
+      <h2 id="h-cl">Checklist</h2>
+      <div class="cl-bar" role="progressbar" aria-label="Voortgang" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="cl-fill" id="clFill"></div></div>
+      <p class="cl-count" id="clCount">0 van 0 klaar</p>
+    </div>
+    <div class="cl-body">
+      <div class="cl-group" data-step="1"><h3>1 · Klaarzetten</h3>
+        <label class="cl-item"><input type="checkbox" id="c1a"><span>Werkdocument open, met mijn naam in de titel</span></label>
+        <label class="cl-item"><input type="checkbox" id="c1b"><span>Kader gelezen: wat Sara vond</span></label>
+      </div>
+      <div class="cl-group" data-step="2"><h3>2 · Het briefje</h3>
+        <label class="cl-item"><input type="checkbox" id="c2a"><span>Infokader gelezen</span></label>
+        <label class="cl-item"><input type="checkbox" id="c2b"><span>Rij 2 tot 4 van deel 1 ingevuld</span></label>
+        <label class="cl-item"><input type="checkbox" id="c2c"><span>Wachtwoordzin van minstens 15 tekens gemaakt</span></label>
+        <label class="cl-item"><input type="checkbox" id="c2d"><span>Geen echt wachtwoord getypt</span></label>
+      </div>
+      <div class="cl-group" data-step="3"><h3>3 · Overal hetzelfde</h3>
+        <label class="cl-item"><input type="checkbox" id="c3a"><span>Deel 2a gedaan</span></label>
+        <label class="cl-item"><input type="checkbox" id="c3b"><span>Deel 2b gedaan</span></label>
+        <label class="cl-item"><input type="checkbox" id="c3c"><span>Deel 2c gedaan</span></label>
+      </div>
+      <div class="cl-group" data-step="4"><h3>4 · De tablet aan de laadkaai</h3>
+        <label class="cl-item"><input type="checkbox" id="c4a"><span>Gekeken waar ik ingelogd ben, zonder iets te klikken</span></label>
+        <label class="cl-item"><input type="checkbox" id="c4b"><span>Deel 3a en 3b ingevuld</span></label>
+      </div>
+      <div class="cl-group" data-step="5"><h3>5 · Gehackt? Controleren en inleveren</h3>
+        <label class="cl-item"><input type="checkbox" id="c5a"><span>Deel 4 ingevuld</span></label>
+        <label class="cl-item"><input type="checkbox" id="c5b"><span>Zelftest gedaan</span></label>
+        <label class="cl-item"><input type="checkbox" id="c5c"><span>Controletabel nagelezen</span></label>
+        <label class="cl-item"><input type="checkbox" id="c5d"><span>Werkdocument ingeleverd</span></label>
+      </div>
+    </div>
+    <div class="cl-foot">
+      <button class="btn cl-toggle" type="button" id="clToggle" aria-expanded="false">Toon alles</button>
+      <button class="btn" type="button" id="btnReset">Vinkjes wissen</button>
+      <p class="cl-note">Je vinkjes staan alleen op deze computer. Er wordt niets doorgestuurd.</p>
+    </div>
+  </aside>
+</div>
+
+<!-- ============ Klaar! ============ -->
+<div class="klaar-overlay" id="klaar" role="dialog" aria-modal="true" aria-labelledby="h-klaar" hidden>
+  <div class="klaar-card">
+    <img class="mascotte-klaar" src="assets/mascotte/dalton_succes.webp" alt="" width="150" height="150">
+    <h2 id="h-klaar">Sara is tevreden!</h2>
+    <p>Alles is afgevinkt. Heb je nog tijd? Kijk dan bij <strong>Extra</strong>.</p>
+    <p>Vertrek je? <strong>Log uit</strong>, of druk op <span class="key">Windows</span> + <span class="key">L</span>.</p>
+    <button class="btn btn-primary" type="button" id="klaarSluit">Sluiten</button>
+  </div>
+</div>
+
+<footer class="site">
+  Toegepaste Informatica · GO! Dalton Gent · 2de graad Organisatie en logistiek · NovaDepot is een fictief bedrijf. Alle namen en wachtwoorden zijn verzonnen.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
