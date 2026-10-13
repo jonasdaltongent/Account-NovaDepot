@@ -79,8 +79,9 @@ in `classroom.json` en in `lesdoelen.json`.
 
 `classroom.json`: **Werkplek 3 — Een veilig account**, onderwerp *Digitale competenties*, 3ORLO, 4ORLOa en 4ORLOb,
 20 punten, deadline vrijdag 23 oktober 2026, 20.00 uur. Bijlagen: de link naar de lespagina en `WP3_Een-veilig-account`
-(**Een kopie maken voor elke leerling**). Geen zip. Als **concept** klaargezet op 13-10-2026 (nog niet ingepland of toegewezen); je plant de publicatie een half uur vóór
-elke les in (di 20-10 om 14.05 voor 4ORLOb en 14.55 voor 3ORLO, wo 21-10 om 10.45 voor 4ORLOa).
+(**Een kopie maken voor elke leerling**). Geen zip. Als **concept** klaargezet op 13-10-2026 en **ingepland** door de hoofdsessie (teruggelezen: `DRAFT` met een tijdstip):
+Classroom publiceert zelf een half uur vóór elke les: di 20-10 om 14.05 (4ORLOb) en 14.55 (3ORLO), wo 21-10 om 10.45
+(4ORLOa). Het Google-document aan de concepten kreeg op 13-10-2026 de nagelezen versie (zelfde bestand).
 
 Instructietekst:
 
