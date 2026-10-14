@@ -203,13 +203,12 @@ uit `_sjablonen/pre-push`.
 
 ## 8. Wat nog moet blijken in de klas
 
-1. **google.com/devices met een leerlingaccount.** Getest met het testaccount demoleerling3 (13-10-2026): de pagina vroeg
-   eerst om het wachtwoord opnieuw (een beveiligingscontrole). Er is dus **geen schermafbeelding** van de lijst: een
-   tekening staat in de plaats. Sinds het nalezen door de hoofdsessie (13-10-2026) zegt de tip in stap 4: vraagt Google
-   je wachtwoord opnieuw, dan is dat normaal; staat er bovenaan **accounts.google.com**, typ het dan in zoals bij het
-   aanmelden; lukt het niet, kijk naar de tekening en ga verder met deel 3. Een goed moment voor één zin in de klas: je
-   wachtwoord typ je alleen op de echte aanmeldpagina (phishing komt in les 13). Opent de pagina op een schoolaccount,
-   en wat staat erin? Misschien blokkeert de beheerder ze.
+1. **google.com/devices met een leerlingaccount: werkt** (samen met Jonas, 14-10-2026, testaccount demoleerling3).
+   Google vraagt eerst het wachtwoord opnieuw (*Als je wilt doorgaan, moet je eerst verifiëren dat jij het bent* ›
+   *Voer je wachtwoord in* › **Volgende**, op accounts.google.com); daarna opent **Je apparaten**, met de computer van nu
+   als **Je huidige sessie**. Een toestel aanklikken toont **Uitloggen** en **Herken je iets niet?**. Drie schermafbeeldingen
+   in `assets/stapjes/` (naam, e-mailadres en plaatsen afgedekt) vervangen de tekeningen in stap 4 en op dia 6. Nog te
+   zien in de klas: vraagt Google het wachtwoord ook kort na het aanmelden?
 2. **Typen leerlingen toch een echt wachtwoord** in een vak van het werkdocument, ondanks de regel op de pagina, in de
    opdracht en op dia 5? Kijk daar tijdens de eerste rondgang naar.
 3. **Wachtwoordzin**: lukt het tellen van 15 tekens? Maken ze een zin met een naam of jaartal?
