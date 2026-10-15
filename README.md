@@ -203,6 +203,9 @@ uit `_sjablonen/pre-push`.
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Het filmpje Inleveren** (15-10-2026, in de laatste stap, in elke les tot de leerlingen het systeem kennen): leveren ze
+  in zonder te vragen? Kijken ze naar het filmpje, en klikken ze in het venster *Je werk inleveren?* nog eens op *Inleveren*?
+
 1. **google.com/devices met een leerlingaccount: werkt** (samen met Jonas, 14-10-2026, testaccount demoleerling3).
    Google vraagt eerst het wachtwoord opnieuw (*Als je wilt doorgaan, moet je eerst verifiëren dat jij het bent* ›
    *Voer je wachtwoord in* › **Volgende**, op accounts.google.com); daarna opent **Je apparaten**, met de computer van nu
