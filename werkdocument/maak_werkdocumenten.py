@@ -134,6 +134,10 @@ def werkdocument():
     kruisvakken(doc, ANTWOORDEN_4B)
 
     hs.deel(doc, None, "Nalezen")
+    # eerst het codewoord van de zelftest (15-10-2026): de lespagina toont het pas als de drie vragen van stap 5
+    # juist zijn; zo ziet Jonas wie de zelftest echt maakte (_afspraken/lespagina.md, De laatste stap)
+    hs.vraag(doc, "Het codewoord van de zelftest (stap 5 op de lespagina):")
+    hs.antwoordvak(doc, 0.9)
     hs.controletabel(doc, CRITERIA)
 
     doc.save(UIT)

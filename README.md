@@ -50,6 +50,12 @@ Geen zip en geen bronbestanden: er is niets te downloaden, uit te pakken of te u
 
 ### 1b. Hoe de lespagina werkt
 
+- **Stap 5: inleveren pas na de zelftest, met een codewoord** (15-10-2026, Jonas: "wel in alles wat er na komt"; zoals
+  MWW les 3). Eerst *Wat moet je doen?* met het infokader, deel 4 en de zelftest; daarna een tweede blok *Afwerken en
+  inleveren* (codewoord, controletabel, inleveren) dat dicht blijft tot de drie vragen juist zijn. Dan toont de groene
+  regel het codewoord **SLEUTEL**, dat de leerling bovenaan *Nalezen* typt. Het Google-document aan de drie concepten
+  is vervangen (15-10-2026, 11.47, nog `DRAFT`). De theoriekaart zegt nu: *Klaar? Doe de zelftest in de laatste stap.*
+
 Zoals les 07: links de **route** (*De veiligheidsronde*: stap 1–4 · *Als het toch misloopt*: stap 5), midden **één stap**
 met *Stap voor stap / Kort* (de les begint in *Stap voor stap*), rechts de **checklist** met 15 taken. Geen *Hulp
 nodig?*: grijze regels onder de handeling en één tip per stap.
@@ -136,6 +142,8 @@ Stap 1–5: 3 + 10 + 8 + 9 + 10 = **40 minuten**. Een gemiddelde leerling is na 
 
 ## 4. Verbetersleutel
 
+- **Codewoord** bovenaan *Nalezen*: **SLEUTEL**. Ontbreekt het, dan is de zelftest van stap 5 niet (juist) gemaakt.
+
 De leerling levert alleen het werkdocument in (20 punten: 6 · 5 · 4 · 5).
 
 ### Deel 1 — Het briefje (6)
@@ -203,6 +211,8 @@ uit `_sjablonen/pre-push`.
 
 ## 8. Wat nog moet blijken in de klas
 
+- **Inleveren pas na de zelftest** (15-10-2026): maken de ORLO-leerlingen de drie vragen, en typen ze *SLEUTEL* bij
+  *Nalezen*? Vinden ze het tweede blok *Afwerken en inleveren* onder de zelftest?
 - **Het filmpje Inleveren** (15-10-2026, in de laatste stap, in elke les tot de leerlingen het systeem kennen): leveren ze
   in zonder te vragen? Kijken ze naar het filmpje, en klikken ze in het venster *Je werk inleveren?* nog eens op *Inleveren*?
 
