@@ -63,11 +63,14 @@ nodig?*: grijze regels onder de handeling en één tip per stap.
 - **Startpagina** met drie beelden: de opdracht in Classroom → deze lespagina → je werkdocument WP3 (groot, zonder
   `.vier`).
 - **Infokaders** (`.info`, zoals MW les 4) bij het leesmateriaal: *Een sterk wachtwoord* (stap 2), *Overal een ander
-  wachtwoord* en *Twee sloten op de deur* (stap 3), *Is je account gehackt?* (stap 5), in de volgorde van de vragen.
+  wachtwoord* en *Twee sloten op de deur* (stap 3), *Uitloggen en vergrendelen* (stap 4), *Is je account gehackt?*
+  (stap 5), in de volgorde van de vragen.
 - **Stap 4**: een blauwe knop **Waar ben ik ingelogd?** naar `https://google.com/devices` (nieuw tabblad); de leerling
   kijkt alleen. Sinds 14-10-2026 tonen drie schermafbeeldingen van het testaccount demoleerling3 (`assets/stapjes/`, naam,
   e-mailadres en plaatsen afgedekt) de wachtwoordvraag, *Je apparaten* en **Uitloggen** (zie § 8, punt 1).
-  **Windows + L** staat als toetsen (`.key`).
+  **Windows + L** staat als toetsen (`.key`). Sinds 19-10-2026 (de les begint in *Kort*): de knop is een eigen
+  handeling, zichtbaar zonder *Toon stapjes*, en het infokader *Uitloggen en vergrendelen* (bij deel 3a en 3b) zegt wat
+  eerst alleen in de stapjes stond: **Uitloggen**, een tabblad sluiten is geen uitloggen, **Windows + L**.
 - **Zelftest** in stap 5 (drie vragen met knoppen, niets bewaard): tweestapsverificatie, de sterkste wachtwoordzin,
   Windows + L. Geen invulveld, geen wachtwoordmeter.
 - **Extra** (telt niet mee, niet in het werkdocument): de wachtwoordtest van Safeonweb en een tip voor thuis.

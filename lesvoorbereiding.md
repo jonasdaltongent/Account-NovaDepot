@@ -285,6 +285,12 @@ Route in twee groepen: *De veiligheidsronde* (stap 1–4) · *Als het toch mislo
    - Handeling 2 *Even weg?*: tekening van de toetsen **Windows + L**: je computer gaat op slot tot je weer aanmeldt.
      Je doet het niet nu (dia 6 toonde het).
    - Handeling 3: deel 3a en 3b.
+   - Sinds 19-10-2026, omdat de pagina in *Kort* begint (in *Kort* stond de knop, Uitloggen en Windows + L alleen achter
+     *Toon stapjes*): de knop **Waar ben ik ingelogd?** is een eigen handeling, zichtbaar · *Bekijk waar jij bent
+     ingelogd. Verander niets: je kijkt alleen.* met de beelden in de stapjes · *Lees het infokader hieronder* (grijze
+     regel: nu niet op Windows + L drukken) · deel 3a en 3b. Infokader *Uitloggen en vergrendelen* (bij deel 3a en 3b):
+     uitloggen bij *Je apparaten* › **Uitloggen**, ook voor een toestel waar je niet meer bij bent · een tabblad
+     sluiten is geen uitloggen (zoals Jonas zegt bij dia 6) · even weg: **Windows + L**.
    - Tip (bijgestuurd bij het nalezen, 13-10-2026: met het testaccount vroeg Google het wachtwoord opnieuw): *Vraagt
      Google je wachtwoord opnieuw? Dat is normaal: zo beschermt Google je account. Staat bovenaan accounts.google.com?
      Typ dan je wachtwoord, zoals bij het aanmelden. Lukt het niet? Kijk naar het beeld en ga verder met deel 3.* Je
