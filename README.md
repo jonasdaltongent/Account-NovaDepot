@@ -34,7 +34,7 @@ W08 - Les 09 - ORLO - Een veilig account/
 ├── presentatie.html             # 10 dia's: 1 Zo start je · 2 lesstart · 3 lesdoel · 4 de ronde van Sara · 5 wachtwoordzin · 6 sloten, toestellen, Windows + L · 7 controle · 8 stap 1 samen · 9 kloktijden · 10 exitvraag
 ├── css/style.css, css/slides.css
 ├── js/script.js, js/slides.js
-├── assets/                      # logo's, lettertypes, mascotte (geen screenshots of filmpjes: alles zijn tekeningen)
+├── assets/                      # logo's, lettertypes, mascotte; stapjes/ (drie schermafbeeldingen van het testaccount, stap 4 en dia 6, en het codewoord); video/inleveren.mp4
 ├── werkdocument/
 │   ├── WP3_Een-veilig-account.docx   # het werkdocument dat de leerling INLEVERT (kopie per leerling)
 │   ├── maak_werkdocumenten.py        # maakt het opnieuw (python-docx)
@@ -65,7 +65,8 @@ nodig?*: grijze regels onder de handeling en één tip per stap.
 - **Infokaders** (`.info`, zoals MW les 4) bij het leesmateriaal: *Een sterk wachtwoord* (stap 2), *Overal een ander
   wachtwoord* en *Twee sloten op de deur* (stap 3), *Is je account gehackt?* (stap 5), in de volgorde van de vragen.
 - **Stap 4**: een blauwe knop **Waar ben ik ingelogd?** naar `https://google.com/devices` (nieuw tabblad); de leerling
-  kijkt alleen. De lijst met toestellen is een tekening (`.teken-dev`), toestelnamen en plaatsen zijn grijze balkjes.
+  kijkt alleen. Sinds 14-10-2026 tonen drie schermafbeeldingen van het testaccount demoleerling3 (`assets/stapjes/`, naam,
+  e-mailadres en plaatsen afgedekt) de wachtwoordvraag, *Je apparaten* en **Uitloggen** (zie § 8, punt 1).
   **Windows + L** staat als toetsen (`.key`).
 - **Zelftest** in stap 5 (drie vragen met knoppen, niets bewaard): tweestapsverificatie, de sterkste wachtwoordzin,
   Windows + L. Geen invulveld, geen wachtwoordmeter.
@@ -187,8 +188,10 @@ juist, met een reden die klopt (3 punten).
 
 ## 5. Schermafbeeldingen (optioneel)
 
-Geen. Alle beelden zijn tekeningen in HTML en CSS (de opdracht in Classroom, het briefje, de tabellen van het
-werkdocument, de lijst met toestellen, de toetsen **Windows + L**). Zie `assets/screenshots/LEESMIJ.md`.
+Drie schermafbeeldingen in `assets/stapjes/` (14-10-2026, testaccount demoleerling3; naam, e-mailadres en plaatsen
+afgedekt, nagekeken bij het nakijken op 18-10-2026): `wachtwoord-opnieuw.png`, `je-apparaten.png`, `uitloggen.png`, in stap 4
+en op dia 6. De rest zijn tekeningen in HTML en CSS (de opdracht in Classroom, het briefje, de tabellen van het werkdocument,
+de toetsen **Windows + L**). Het filmpje *Inleveren* staat in `assets/video/`.
 
 ---
 
