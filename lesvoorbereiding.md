@@ -230,7 +230,24 @@ Kader: *Tom krijgt een mail: "Nieuwe aanmelding op je account, op een onbekend t
 zet de punten in dezelfde rij.
 
 Geen *Extra* in het werkdocument: de extra (de wachtwoordtest van Safeonweb, een tip voor thuis) gaat over de eigen
-gewoontes van de leerling en blijft bij de leerling. Verwachte antwoorden: `README.md` §4.
+gewoontes van de leerling en blijft bij de leerling.
+
+**Verwachte antwoorden** (ook in `README.md` §4; hier staan ze voor de verbetertool, 19-10-2026)
+
+- Deel 1: `tompeeters` **nee**: een naam, en te kort (10 tekens) · `12345678` **nee**: te kort, en een reeks die
+  iedereen als eerste probeert · `Drie groene vorken dansen op pallet 7!` **ja**: lang (38 tekens), meer woorden, geen
+  naam of jaartal. De wachtwoordzin: minstens 15 tekens (spaties en tekens tellen mee), minstens 4 woorden, geen naam,
+  bedrijf of jaartal.
+- Deel 2: a *Wie het briefje leest, kan ook in Toms e-mail.* · b een code op je gsm = iets wat je **hebt** · je
+  vingerafdruk = iets wat je **bent** · je wachtwoord = iets wat je **weet** · c **nee**: die persoon kent het
+  wachtwoord, maar niet het tweede bewijs (de code op Toms gsm, of zijn vingerafdruk).
+- Deel 3: a **Uitloggen** (bij het toestel in de lijst van *Je apparaten*) · b **Windows + L**.
+- Deel 4: a *Zijn wachtwoord meteen veranderen.* · b de drie juiste: tweestapsverificatie aanzetten · uitloggen bij het
+  onbekende toestel · NovaDepot verwittigen.
+
+**Wat niet telt** (voorstel AI, 19-10-2026): bij deel 1 een reden die op elk wachtwoord past (*niet veilig*, *te
+makkelijk*) zonder te zeggen waarom · bij 2c *ja* of een uitleg met *twee wachtwoorden* · bij 3a *het tabblad
+sluiten* (dat is geen uitloggen: het infokader van stap 4 en dia 6).
 
 ## 15–17. Korte klassikale instructie en demonstratie (Ik doe → Jullie doen)
 
@@ -354,9 +371,30 @@ het werkdocument. Verbetersleutel: `README.md` §4.
 
 Punten per deel: 6 · 5 · 4 · 5. Bij deel 4b: 1 punt per juiste x; een x bij een fout antwoord kost 1 punt (niet onder 0).
 
+**Hoe de punten verdeeld worden** (voorstel AI, 19-10-2026; Jonas past aan bij het verbeteren):
+
+- **Deel 1, de drie wachtwoorden** (3): 1 per rij met *ja* of *nee* juist en een reden die klopt; juist zonder (passende)
+  reden = ½.
+- **Deel 1, de wachtwoordzin** (3): 1 voor minstens 15 tekens · 1 voor minstens 4 woorden · 1 voor geen naam, bedrijf of
+  jaartal. Een zin die letterlijk uit de les komt (*7 blauwe heftrucks eten soep!*, *Drie groene vorken dansen op
+  pallet 7!*): hoogstens 1, want die kent de hele klas. Lijkt de zin een echt wachtwoord (bv. met de eigen naam, in de
+  tekst voor de AI `[NAAM]` of `[VOORNAAM]`): voorleggen aan Jonas.
+- **Deel 2a** (1): alleen een x bij *Wie het briefje leest …*; een x bij meer antwoorden = 0.
+- **Deel 2b** (2): drie juist = 2, twee = 1, minder = 0.
+- **Deel 2c** (2): 1 voor *nee* · 1 voor de uitleg: het tweede bewijs ontbreekt (de code op de gsm, de vingerafdruk).
+- **Deel 3** (4): a **Uitloggen** (ook *afmelden*) = 2 · b **Windows + L** = 2; een andere manier om te vergrendelen
+  (Ctrl + Alt + Delete › Vergrendelen) = 1; *afmelden* of *afsluiten* = 1 (veilig, maar niet wat de les vroeg).
+- **Deel 4** (5): a = 2 · b = 3, zoals hierboven.
+
+Geen feiten uit een kader die letterlijk juist moeten zijn: deze les heeft geen eigen product met datums of adressen.
+
 **Essentiële fouten:** een echt wachtwoord in het werkdocument (meteen laten wissen en veranderen) · een
 wachtwoordzin korter dan 15 tekens · tweestapsverificatie uitgelegd als *twee wachtwoorden* · in deel 4 eerst afwachten
 of het wachtwoord doorsturen.
+
+### Jonas' beslissingen bij het verbeteren
+
+- (nog geen)
 
 ## 23. Feedback
 
