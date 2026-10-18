@@ -57,7 +57,7 @@ Geen zip en geen bronbestanden: er is niets te downloaden, uit te pakken of te u
   is vervangen (15-10-2026, 11.47, nog `DRAFT`). De theoriekaart zegt nu: *Klaar? Doe de zelftest in de laatste stap.*
 
 Zoals les 07: links de **route** (*De veiligheidsronde*: stap 1–4 · *Als het toch misloopt*: stap 5), midden **één stap**
-met *Stap voor stap / Kort* (de les begint in *Stap voor stap*), rechts de **checklist** met 15 taken. Geen *Hulp
+met *Toon stapjes* per handeling (de les begint in *Kort*, zonder knop, sinds 18-10-2026), rechts de **checklist** met 15 taken. Geen *Hulp
 nodig?*: grijze regels onder de handeling en één tip per stap.
 
 - **Startpagina** met drie beelden: de opdracht in Classroom → deze lespagina → je werkdocument WP3 (groot, zonder

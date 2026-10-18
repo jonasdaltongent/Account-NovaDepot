@@ -28,7 +28,7 @@ opgesteld_volgens: "_afspraken/ (werkruimte Toegepaste Informatica)"
 >   Alleen in stap 4 kijken ze even in hun eigen Google-account (één link).
 > - **Klein**: vijf stappen, vier delen met korte vragen. De minuten op dia 9 vullen de keuzewerktijd (afspraak),
 >   maar een gemiddelde leerling is na ± 30 minuten klaar; zo raakt iedereen tot **Inleveren**.
-> - **Hetzelfde systeem als les 07**: startpagina, route, *Stap voor stap / Kort*, checklist, de opdracht met
+> - **Hetzelfde systeem als les 07**: startpagina, route, *Toon stapjes* per handeling, checklist, de opdracht met
 >   *Jouw werk* en *Inleveren*.
 
 > [!WARNING]
@@ -247,8 +247,8 @@ misloopt: een wachtwoordzin die lang genoeg is (tellen!) en Windows + L.
 
 ## 18–19. Zelfstandige verwerking en stappenplan
 
-Route · één stap · checklist (± 16 taken). Zoals les 07: *Stap voor stap / Kort*, de les begint in *Stap voor stap*
-(`data-modus-start="stap"`), kleine stapjes met één beeld, geen *Hulp nodig?* maar grijze regels en één tip per stap.
+Route · één stap · checklist (± 16 taken). Zoals les 07: *Toon stapjes* per handeling, de les begint in *Kort*
+(`data-modus-start="kort"`, zonder knop sinds 18-10-2026), kleine stapjes met één beeld, geen *Hulp nodig?* maar grijze regels en één tip per stap.
 Leesmateriaal staat in een **infokader** in de stap, in de volgorde van de vragen, zonder de antwoorden aan te wijzen
 (`_afspraken/lespagina.md`, *Bijgestuurd in de praktijk*).
 
@@ -392,7 +392,7 @@ of het wachtwoord doorsturen.
   *Groot genoeg*) · *Na deze les kan je* (drie punten) · *Vast?* · *Start met stap 1*.
 - **Links** de route: *Start*, *Theoriekaart*, stap 1–4 (*De veiligheidsronde*), stap 5 (*Als het toch misloopt*),
   *Extra*.
-- **Midden** één stap tegelijk, met *Stap voor stap / Kort*, de infokaders bij de vragen.
+- **Midden** één stap tegelijk, met *Toon stapjes* per handeling, de infokaders bij de vragen.
 - **Rechts** de checklist: ± 16 taken, per stap.
 - **Theoriekaart** (± 10 kaartjes): zo werkt elke les · een sterk wachtwoord · een wachtwoordzin maken · overal een
   ander wachtwoord (en de kluis) · twee sloten: tweestapsverificatie · een gedeelde computer (uitloggen, Windows + L)
@@ -409,7 +409,7 @@ of het wachtwoord doorsturen.
 - Checklist met voortgangsbalk (`localStorage`, voorvoegsel `novadepot_account_v1_`) en een wisknop; groen vinkje in
   de route; op een smal scherm alleen de taken van de huidige stap; in stap 5 de hele lijst.
 - Vorige/volgende-knoppen; de laatst geopende stap wordt onthouden.
-- *Stap voor stap / Kort* zoals les 07.
+- *Toon stapjes* per handeling zoals les 07.
 - Een zelftest met directe feedback in stap 5 (drie vragen, niets bewaard).
 - Een knop **Waar ben ik ingelogd?** naar `https://google.com/devices` (nieuw tabblad), en een link naar de
   wachtwoordtest van Safeonweb in *Extra*.
