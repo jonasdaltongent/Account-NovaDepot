@@ -656,6 +656,9 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .teken-wd td.grijs { color: #5F6368; font-style: italic; }
 .teken-wd td.vak { background: #F3F5FC; min-width: 70px; height: 24px; }
 .teken-wd td.vak.breed { min-width: 150px; }
+/* Chrome tekent geen box-shadow op een tabelcel met samengevoegde randen: het rode kader is hier een outline
+   (gezien bij het nakijken op 18-10-2026; zelfde regel als ORLO les 11) */
+.teken-wd td.wijs { box-shadow: none; outline: 4px solid #C5221F; outline-offset: -3px; }
 
 /* tekening: de lijst met toestellen op google.com/devices; toestelnamen en plaatsen zijn grijze balkjes */
 .teken-dev { justify-self: start; width: 100%; max-width: 380px; background: #fff; border: 1px solid var(--line); border-radius: 8px; font-family: "Segoe UI", Arial, sans-serif; font-size: 14px; color: #1F1F1F; }
