@@ -394,7 +394,14 @@ of het wachtwoord doorsturen.
 
 ### Jonas' beslissingen bij het verbeteren
 
-- (nog geen)
+- 24-10-2026 (de voorstellen van de AI, door Jonas gekozen):
+  - Deel 1: *nee* bij een sterk wachtwoord, met een uitleg dat het sterk is, telt niet: *ja* of *nee* moet kloppen.
+  - Deel 1, de wachtwoordzin: lijkt ze een echte naam of datum te bevatten (misschien een echt wachtwoord), dan
+    krijgt ze geen punt voor *geen naam, bedrijf of jaartal* (hoogstens 2).
+  - Deel 3: *Windows + L* bij a (de knop in het Google-account) telt niet voor b. *Uitloggen* bij b telt als
+    afmelden (1).
+  - Iets wat het script verborg buiten een vak (bv. een telefoonnummer) houdt het concept niet tegen: het telt niet
+    mee.
 
 ## 23. Feedback
 
